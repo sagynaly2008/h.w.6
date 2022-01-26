@@ -17,6 +17,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 
 public class ItemListFragment extends Fragment implements Listener {
+
     private Adapter adapter;
     private ArrayList<Musics> arrayList = new ArrayList<>();
     private RecyclerView recyclerView;
@@ -38,10 +39,11 @@ public class ItemListFragment extends Fragment implements Listener {
         arrayList.add(new Musics("Цепи","3:27","3","Скриптонит",3));
         arrayList.add(new Musics("Believer","3:24","4","Imagine Dragons",4));
         arrayList.add(new Musics("I can fly","2:45","5","Xcho",5));
-        arrayList.add(new Musics("Blank Space", "3:22", "1", "Taylor Swift", 6));
-        arrayList.add(new Musics("Watch Me", "5:36", "2", "Silento", 7));
-        arrayList.add(new Musics("Earned it", "4:51", "3", "The Weekend", 8));
-        arrayList.add(new Musics("The Hills", "3:41", "4", "The Weekend", 9));
+        arrayList.add(new Musics("Blank Space", "3:22", "6", "Taylor Swift", 6));
+        arrayList.add(new Musics("Watch Me", "5:36", "7", "Silento", 7));
+        arrayList.add(new Musics("Earned it", "4:51", "8", "The Weekend", 8));
+        arrayList.add(new Musics("The Hills", "3:41", "9", "The Weekend", 9));
+        arrayList.add(new Musics("The Hills", "3:41", "10", "The Weekend", 9));
 
     }
 

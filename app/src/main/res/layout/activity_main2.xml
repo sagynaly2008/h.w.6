@@ -14,9 +14,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         android:textColor="@color/white"
-        android:text="Blank Space"/>
+        android:text="@string/blank_space"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,7 @@ import com.example.hw6.databinding.FragmentItemListBinding;
 import java.util.ArrayList;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
+
     private ArrayList<Musics> arrayList;
     ItemListFragment listener;
 
@@ -36,7 +37,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-holder.onBind(arrayList.get(position));
+        holder.onBind(arrayList.get(position));
     }
 
     @Override
